@@ -1,0 +1,15 @@
+.container {
+  background: linear-gradient(0deg, #ffffff, #ffffff), #f4f8ff;
+  height: 100%;
+  .content {
+    padding: 0 30px;
+  }
+
+  .desc {
+    margin: 14px 0 50px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b3b9bf;
+  }
+}

@@ -1,0 +1,52 @@
+@import '../../common/scss/common.scss';
+
+.nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 20px;
+  height: 44px;
+  min-height: 44px;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 999999;
+  font-size: 12px;
+  & > div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    // padding-top: 24px;
+    &.left {
+      justify-content: start;
+      min-width: 30px;
+      img {
+        width: 16px;
+        height: 16px;
+      }
+    }
+    &.title {
+      justify-content: center;
+      text-align: center;
+      white-space: nowrap;
+      max-width: 50%;
+      line-height: 44px;
+      font-size: 16px;
+
+      p {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        line-height: 20px;
+      }
+    }
+    &.right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}

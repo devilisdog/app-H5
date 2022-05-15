@@ -1,0 +1,228 @@
+@import '../../common/scss/common.scss';
+
+.indexContainer {
+  background: url('../../assets/index/home_bg.png') no-repeat;
+  background-size: 100%;
+  width: 7.5rem;
+  height: 100vh;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+}
+
+.avatarImg {
+  width: 1.44rem;
+  height: 1.44rem;
+}
+
+.name {
+  text-align: center;
+  font-weight: 700;
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.address {
+  font-size: 11px;
+  margin-top: 0.28rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.describe {
+  width: 4.82rem;
+  display: flex;
+  margin-right: 6px;
+}
+
+.label {
+  white-space: nowrap;
+}
+
+.hash {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.copyIcon {
+  cursor: pointer;
+  width: 0.24rem;
+  height: 0.24rem;
+}
+
+.button_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.4rem;
+  font-size: 12px;
+}
+
+.extract_add {
+  display: flex;
+  width: 6.26rem;
+  justify-content: space-between;
+}
+
+.button_triangle {
+  display: flex;
+  align-items: center;
+}
+
+.triangle {
+  width: 0.16rem;
+  height: 0.16rem;
+  margin: 0 3px;
+}
+
+.notice {
+  height: 0.48rem;
+  margin: 0.4rem 0.32rem;
+  padding: 0 0.16rem;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  color: #ffffff;
+  background: linear-gradient(270deg, #7b3cf4 0%, #0d3c4f 50%);
+  border-radius: 100px;
+}
+
+.notice_voice {
+  width: 0.28rem;
+  height: 0.24rem;
+}
+
+.notice_right {
+  width: 0.32rem;
+  height: 0.32rem;
+}
+
+.notice_text {
+  padding-right: 0.68rem;
+  padding-left: 0.22rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.popUp {
+  background-color: #dfe3e9;
+  border-radius: 0.4rem 0.4rem 0 0;
+  height: 9.44rem;
+  padding-top: 0.28rem;
+}
+
+.title_box {
+  display: flex;
+  justify-content: center;
+}
+
+.title_linne {
+  height: 0.08rem;
+  width: 1.14rem;
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 2rem;
+  margin-bottom: 0.28rem;
+}
+.swiper_box {
+  padding-left: 0.32rem;
+}
+
+.content {
+  width: 4.88;
+  height: 6.08rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(187, 194, 205, 0.5);
+  border-radius: 8px;
+  margin-right: 0.32rem;
+  padding: 0.28rem;
+  position: relative;
+}
+
+.contentTitle {
+  position: absolute;
+  width: 3.2rem;
+  height: 0.68rem;
+  top: 0.28rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: url('../../assets/index/activated2.png') no-repeat;
+  background-size: auto 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.contentTitleActive {
+  background: url('../../assets/index/activated.png') no-repeat;
+}
+
+.content_img {
+  width: 4.32rem;
+  height: 4.32rem;
+  border-radius: 4px;
+}
+
+.nft_title {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 0.32rem 0 0.2rem 0;
+}
+
+.nft_title_name {
+  color: #363853;
+}
+
+.nft_title_num {
+  background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.capsule_box {
+  display: flex;
+  justify-content: center;
+}
+
+.capsule {
+  width: 2.44rem;
+  height: 0.4rem;
+  background: linear-gradient(270deg, #414141 0%, #b8b8b8 100%);
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.capsuleActive {
+  background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+}
+
+.showMore_box {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 1.66rem;
+  width: 100%;
+  max-width: 7.5rem;
+}
+
+.showMore {
+  background: url('../../assets/index/more.png') no-repeat;
+  background-size: 100%;
+  width: 2.44rem;
+  height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 7px;
+}

@@ -1,0 +1,116 @@
+@import '../../../common/scss/common.scss';
+
+.container {
+  // padding: 22px 0 40px 32px;
+  // padding-top: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url('../../../assets/login/login_header_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  h1 {
+    margin-top: 24px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    background-image: linear-gradient(270deg, #7b3cf4 -13.01%, #00fcff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  h2 {
+    padding-left: 30px;
+    margin: 8px 0 26px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .content {
+    flex: 1;
+    padding: 30px 30px 58px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    max-height: 75vh;
+    overflow-y: auto;
+  }
+  .Form {
+    padding-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    :global(.adm-list-body) {
+      background-color: transparent;
+      border: none;
+      width: 100%;
+    }
+    :global(.adm-list-item) {
+      background-color: transparent;
+      width: 100%;
+      padding: 0;
+    }
+    :global(.adm-list-item-content-main) {
+      padding: 30px 0 0;
+    }
+    :global(.adm-list-item-content) {
+      display: block;
+      padding-right: 0;
+    }
+    :global(.adm-form-item-feedback-error) {
+      font-size: 12px;
+    }
+    :global(.adm-form-footer) {
+      padding: 0;
+    }
+
+    .FormItem {
+      :global(.adm-form-item-label) {
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 14px;
+      }
+      .input {
+        padding: 0 17px;
+        color: #000;
+        --font-size: 14px;
+        height: 48px;
+        --placeholder-color: #d6dde5;
+        background: #f0f5fa;
+        border-radius: 4px;
+        &.password {
+          padding-right: 42px;
+        }
+      }
+
+      .eye {
+        position: absolute;
+        height: 16px;
+        // bottom: 16px;
+        top: 81px;
+        right: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+
+  .submit {
+    margin-top: 100px;
+    height: 48px;
+    background: linear-gradient(270deg, #5b6ff8 -13.01%, #27b8c5 100%);
+    border: none;
+    font-size: 14px;
+    &:disabled {
+      background: #f0f5fa;
+      color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  .title {
+    color: #ff7a4d;
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,35 @@
+@import '../../../common/scss/common.scss';
+
+.container {
+  .title {
+    margin: 24px 0 30px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #fff;
+  }
+  :global(.content) {
+    padding-top: 10px;
+  }
+  .SecurityItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    padding: 20px 0;
+    font-size: 14px;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    span {
+      color: #c3c7cc;
+      margin-right: 4px;
+      &.noPassword {
+        color: #ff7a4d;
+      }
+    }
+  }
+}

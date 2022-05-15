@@ -1,0 +1,69 @@
+@import '../../common/scss/common.scss';
+
+.tabBarArea {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.tabBar {
+  height: 1.66rem;
+  width: 100%;
+  max-width: 7.5rem;
+  background: url('../../assets/index/bottom.png') no-repeat;
+  background-size: auto 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 5.7rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.3rem;
+}
+
+.barItem {
+  width: 1.54rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.barIcon {
+  width: 0.28rem;
+  height: 0.28rem;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 255, 240, 0) 0%,
+    rgba(0, 255, 240, 0.5) 100%
+  );
+  opacity: 0.5;
+  border: 0.5px solid #00fff0;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .barImg {
+    // width: 5.6px;
+    // height: 5.6px;
+  }
+}
+
+.barLine {
+  width: 100%;
+  height: 0.08rem;
+  //   border: 0.5px solid #fba945;
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 2rem;
+  margin: 0.12rem 0;
+}
+
+.barText {
+  font-weight: 500;
+  font-size: 7px;
+  text-align: center;
+  //   background: linear-gradient(108.08deg, #ffffff 0%, #ffa133 100%);
+  color: transparent;
+}

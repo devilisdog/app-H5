@@ -1,0 +1,87 @@
+.Container {
+  min-height: 80vh;
+  max-height: 90vh;
+  padding: 10px 0 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  .Content {
+    flex: 1;
+    padding: 10px 20px 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: scroll;
+  }
+  .FilterTypeTitle {
+    margin-bottom: 14px;
+    color: #83848c;
+    &:not(:first-of-type) {
+      margin-top: 24px;
+    }
+  }
+  .DatePicker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // margin-bottom: $margin-md;
+    & > div:first-child {
+      // margin-right: 0.3rem;
+    }
+    & > p {
+      margin: 0 11px;
+      color: #83848c;
+    }
+    .date {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 52px;
+      border: 1px solid #f0f5fa;
+      border-radius: 6px;
+      p {
+        margin-right: 5px;
+        color: #363853;
+      }
+    }
+  }
+  .FilterTypeItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    .btn {
+      // flex: 1;
+      margin-right: 11px;
+      margin-bottom: 14px;
+      height: 52px;
+      min-width: 162px;
+      --border-radius: 6px;
+      --text-color: #363853;
+      --border-color: #f0f5fa;
+      font-size: 12px;
+      &.active {
+        --text-color: #fff;
+        --border-color: #27b8c5;
+        --background-color: #27b8c5;
+      }
+    }
+  }
+  .Footer {
+    padding: 20px 20px 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .FooterBtn {
+      flex: 1;
+      height: 52px;
+      font-size: 14px;
+      --border-color: #f0f5fa;
+      &:first-of-type {
+        color: #27b8c5;
+        margin-right: 11px;
+      }
+    }
+  }
+}

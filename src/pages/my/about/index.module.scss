@@ -1,0 +1,29 @@
+@import "../../../common/scss/common.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url('../../../assets/login/login_header_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  .content {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+
+.settingTitle {
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 24px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}

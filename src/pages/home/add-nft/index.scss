@@ -1,0 +1,91 @@
+.AddNft {
+  background: url('../../../assets/index/home_bg.png') no-repeat;
+  background-size: 100%;
+  width: 7.5rem;
+  height: 100vh;
+  color: #ffffff;
+  padding: 0 0.4rem;
+  font-size: 14px;
+
+  &-title {
+    margin-bottom: 0.28rem;
+  }
+
+  &-coin {
+    width: 2.56rem;
+    height: 0.88rem;
+    border: 1px solid #3f2581;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180.88deg, #191333 -5.96%, rgba(0, 0, 0, 0.3) 99.24%);
+    margin-bottom: 0.8rem;
+    font-size: 12px;
+  }
+
+  &-qrCode {
+    width: 6.06rem;
+    height: 6.6rem;
+    background: #ffffff;
+    border-radius: 8px;
+    margin: 0 0.32rem 0.4rem 0.32rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.32rem 0.76rem;
+    &-box {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin-bottom: 0.6rem;
+      &-icon {
+        position: absolute;
+        top: 0;
+        right: -0.32rem;
+        border: 1px solid #adb2cc;
+        border-radius: 50%;
+        width: 0.88rem;
+        height: 0.88rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      &-code {
+        margin-top: 0.32rem;
+        width: 2.4rem;
+        height: 2.4rem;
+      }
+    }
+
+    &-address {
+      font-size: 12px;
+      color: #5c719b;
+      margin-bottom: 0.2rem;
+    }
+
+    &-hash {
+      text-align: center;
+      font-size: 12px;
+      color: #adb2cc;
+      margin-bottom: 0.48rem;
+      line-height: 14px;
+    }
+
+    &-button {
+      width: 4.54rem;
+      height: 0.88rem;
+      border-radius: 4px;
+      background-color: #8f76f1;
+    }
+  }
+
+  &-prompt {
+    font-size: 12px;
+    line-height: 20px;
+    color: #adb2cc;
+    opacity: 0.5;
+  }
+}

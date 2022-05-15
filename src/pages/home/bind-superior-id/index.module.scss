@@ -1,0 +1,35 @@
+@import '../../../common/scss/common.scss';
+
+.container {
+  h1 {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #fff;
+  }
+
+  .content {
+    padding-top: 27px;
+    :global(.Form) {
+      padding-top: 0;
+    }
+  }
+
+  .desc {
+    font-size: 12px;
+    line-height: 18px;
+    color: #27b8c5;
+  }
+  .submit {
+    margin-top: 100px;
+  }
+  .select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+}

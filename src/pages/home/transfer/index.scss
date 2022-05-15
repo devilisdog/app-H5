@@ -1,0 +1,112 @@
+@import '../../../common/scss/common.scss';
+
+.Transfer {
+  background: url('../../../assets/index/home_bg.png') no-repeat;
+  background-size: 100%;
+  width: 7.5rem;
+  height: 100vh;
+  color: #ffffff;
+  padding: 44px 25px 0 25px;
+
+  .content {
+    width: 6.53rem;
+    height: 7.68rem;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 194, 205, 0.5);
+    border-radius: 8px;
+    padding: 0.32rem;
+    position: relative;
+    margin-bottom: 0.32rem;
+
+    &-hash {
+      font-size: 12px;
+      line-height: 12px;
+      color: #363853;
+      opacity: 0.6;
+    }
+  }
+
+  .content_activeated {
+    position: absolute;
+    width: 3.2rem;
+    height: 0.68rem;
+    top: 0.32rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url('../../../assets/index/activated.png') no-repeat;
+    background-size: auto 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .content_img {
+    width: 5.88rem;
+    height: 5.88rem;
+    border-radius: 4px;
+  }
+
+  .nft_title {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0.32rem 0 0.2rem 0;
+  }
+
+  .nft_title_name {
+    color: #363853;
+  }
+
+  .nft_title_num {
+    background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  &-inputLabel {
+    margin-top: 0.6rem;
+    margin-bottom: 0.28rem;
+  }
+
+  &-inputForm {
+    display: flex;
+    &-inputArea {
+      width: 290px;
+      background: #fff;
+      height: 0.96rem;
+      border-radius: 4px 0 0 4px;
+      padding: 0 0.32rem;
+    }
+
+    &-suffix {
+      width: calc(100% - 290px);
+      background-color: #fff;
+      font-size: 20px;
+      color: #000;
+      border-radius: 0 4px 4px 0;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &-prompt {
+    font-size: 12px;
+    line-height: 20px;
+    color: #adb2cc;
+    opacity: 0.5;
+    margin-top: 0.28rem;
+  }
+
+  .taransfer-submit-button {
+    line-height: 44px;
+    background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 34px;
+  }
+
+  .disable {
+    background: #696969;
+  }
+}

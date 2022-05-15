@@ -1,0 +1,59 @@
+@import '../../common/scss/common.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url('../../assets/login/login_header_bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  h1 {
+    margin-top: 24px;
+    padding-left: 30px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    background-image: linear-gradient(270deg, #fff -13.01%, #fff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .content {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    .logout {
+      background: #F0F5FA;
+      border-radius: 4px;
+      color: #F53B12;
+      font-size: 14px;
+      border: none;
+      height: 48px;
+    }
+  }
+}
+
+.cancel {
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid #27B8C5;
+  border-radius: 4px;
+  color: #27B8C5;
+  font-size: 12px;
+  width: 128px;
+}
+.confirm {
+  width: 128px;
+  height: 44px;
+  background: linear-gradient(270deg, #5B6FF8 -13.01%, #27B8C5 100%);
+  border-radius: 4px;
+  font-size: 12px;
+  color: #fff;
+}

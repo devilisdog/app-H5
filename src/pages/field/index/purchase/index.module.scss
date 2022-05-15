@@ -1,0 +1,105 @@
+@import '../../../../common/scss/common.scss';
+
+.container {
+  background-image: url('../../../../assets/home/home_bg.png');
+  background-position-y: 0;
+  background-size: cover;
+  .content {
+    margin-top: 68px;
+    padding: 34px 16px 35px;
+    background-color: #dfe3e9;
+  }
+  .Title {
+    p {
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+  .Account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 194, 205, 0.5);
+    border-radius: 4px;
+    p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #818a9b;
+      img {
+        margin-right: 10px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%s;
+      }
+      &:last-of-type {
+        text-align: right;
+      }
+    }
+  }
+  .PurchaseDetail {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 194, 205, 0.5);
+    border-radius: 4px;
+    & > p {
+      border-bottom: 1px solid #e7ecf5;
+    }
+    .PurchaseCalculate {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      // border-top: 1px solid #e7ecf5;
+      padding: 5px 16px;
+
+      & > div {
+        display: flex;
+        overflow: hidden;
+        height: 34px;
+        border-radius: 4px;
+        .Input {
+          border-top: 1px solid #e7ecf5;
+          border-bottom: 1px solid #e7ecf5;
+          width: 34px;
+          height: 34px;
+          text-align: center;
+          font-size: 14px;
+          input {
+            text-align: center;
+          }
+        }
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 34px;
+          font-size: 14px;
+          border-radius: 0;
+        }
+        .Add {
+          border-top-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+          --background-color: #363853;
+          --text-color: #fff;
+          --border-color: #363853;
+        }
+      }
+    }
+    .NFTName {
+      margin-top: 6px;
+      color: #818a9b;
+      text-align: right;
+    }
+  }
+  .checkbox {
+    margin-top: 29px;
+    padding-left: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    --font-size: 12px;
+    --icon-size: 14px;
+    span {
+      color: #27b8c5;
+    }
+  }
+}

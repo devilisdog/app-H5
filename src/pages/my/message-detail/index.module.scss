@@ -1,0 +1,26 @@
+@import "../../../common/scss/common.scss";
+
+.msContainer {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.msContent {
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 20px;
+} 
+
+
+.msTitle {
+  font-weight: 700;
+  font-size: 28px;
+  color: #1A3771;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mslist {
+  margin-top:50px;
+}

@@ -1,0 +1,23 @@
+@import "../../../common/scss/common.scss";
+
+.tradingRecord {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+}
+
+.content {
+  width: 92%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.item {
+  background: #FFFFFF;
+  border-radius: 8px;
+  margin-top: 20px;
+
+  .itemContent {
+    padding: 20px 14px;
+  }
+}

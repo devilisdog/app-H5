@@ -1,0 +1,32 @@
+.Container {
+  background-image: url('../../../assets/home/home_bg.png');
+  background-size: cover;
+  .balance {
+    margin: 15px 0 54px;
+    span {
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+  .Content {
+    padding: 0 16px;
+    background-color: #dfe3e9;
+    .AssetsCard {
+      margin-top: -40px;
+      padding: 31px;
+      background: #ffffff;
+      border-radius: 4px;
+      p {
+        color: #818a9b;
+        &:first-of-type {
+          margin-bottom: 8px;
+        }
+        .Amount {
+          color: #000;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

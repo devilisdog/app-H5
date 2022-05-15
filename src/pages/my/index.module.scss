@@ -1,0 +1,78 @@
+@import '../../common/scss/common.scss';
+
+.myContainer {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 14px;
+  background-image: url('../../assets/home/home_bg.png');
+  background-size: cover;
+}
+
+.myContent {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.myHeader {
+  p {
+    font-size: 20px;
+  }
+  justify-content: end;
+}
+
+.myCard {
+  border-radius: 8px;
+  margin-top: 10px;
+
+  .myCardContent {
+    padding: 30px 20px;
+
+    img {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+    }
+    p {
+      color: #fff;
+    }
+
+    span {
+      padding-top: 10px;
+      font-size: 12px;
+    }
+  }
+}
+
+.myAsset {
+  background: linear-gradient(95.73deg, #213976 -7.69%, #1b202d 100%);
+  border-radius: 4px;
+  margin-top: 20px;
+  .myAssetContent {
+    padding: 16px 24px;
+  }
+  .Balance {
+    padding-top: 20px;
+
+    p {
+      font-weight: bold;
+      font-size: 24px;
+      background: linear-gradient(276.5deg, #ffa133 0%, #ffffff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+      text-shadow: 0px 0px 40px #ff6000;
+    }
+  }
+}
+
+.myNavList {
+  margin-top: 20px;
+  padding-bottom: 150px;
+}
+
+.verifiaction {
+  padding: 12px 20px;
+  font-size: 14px;
+}

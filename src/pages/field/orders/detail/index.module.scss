@@ -1,0 +1,80 @@
+.Container {
+  background-image: url('../../../../assets/home/home_bg.png');
+  background-size: cover;
+  .Content {
+    margin-top: 70px;
+    padding: 0 16px 10px;
+    background: #dfe3e9;
+  }
+  .ReleaseCard {
+    margin-top: -50px;
+    padding: 26px 16px;
+    background: #ffffff;
+    border-radius: 4px;
+    .ReleaseAmount {
+      margin: 12px 0 24px;
+      font-size: 14px;
+      color: #818a9b;
+      span {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+      }
+    }
+  }
+  .PackagePrice {
+    p {
+      line-height: 14px;
+    }
+  }
+  .Tab {
+    margin: 24px 0;
+  }
+  .Item {
+    // padding: 20px 14px;
+    background: #fff;
+    border-radius: 4px;
+    .ItemHeader {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 13px 0 13px 14px;
+      .Status {
+        padding: 7px 16px 7px 19px;
+        border-top-left-radius: 100px;
+        border-bottom-left-radius: 100px;
+        color: #fff;
+        &.Release {
+          background: linear-gradient(270deg, #5b6ff8 -6.3%, #27b8c5 48.4%);
+        }
+        &.NotStarted {
+          background: linear-gradient(90deg, #ffc774 12.15%, #ff4d00 107.99%);
+        }
+        &.Completed {
+          background: linear-gradient(90deg, #b3b3b3 2.17%, #393939 100%);
+        }
+      }
+    }
+    .ItemContent {
+      padding: 0 14px;
+      div {
+        padding: 20px 0;
+        border-top: 1px solid #f0f5fa;
+        margin-bottom: 14px;
+        p {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: #83848c;
+          &:not(:last-of-type) {
+            margin-bottom: 14px;
+          }
+          span:last-child {
+            color: #363853;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+  }
+}

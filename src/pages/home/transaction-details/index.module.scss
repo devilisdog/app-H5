@@ -1,0 +1,27 @@
+@import "../../../common/scss/common.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #fff;
+}
+.content {
+  width: 92%;
+  margin: 0 auto;
+  align-items: center;
+}
+.transferBtn {
+  background: #FF7A4D;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  margin-bottom: 40px;
+}
+.card {
+  width: 92%;
+  padding: 4%;
+  border: 1px solid #EDF1F7;
+  border-radius: 4px;
+}

@@ -1,0 +1,136 @@
+.NftDetail {
+  background: url('../../../assets/index/6.svg') no-repeat;
+  background-size: 100%;
+  width: 7.5rem;
+  height: 100vh;
+  padding-top: 44px;
+
+  .back_bg {
+    background: url('../../../assets/index/circle.svg') no-repeat;
+    background-size: 100%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .share_bg {
+    font-weight: 500;
+    font-size: 14px;
+    background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+
+  &-content {
+    margin-top: 4.6rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &-status {
+      background-size: 100% !important;
+      width: 3.2rem;
+      line-height: 0.68rem;
+      text-align: center;
+      color: #ffffff;
+      font-size: 12px;
+    }
+    &-popup {
+      width: 7.5rem;
+      height: 9.2rem;
+      background: #dfe3e9;
+      border-radius: 0.4rem 0.4rem 0 0;
+      padding: 0.24rem 0.48rem;
+
+      &-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #363853;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 0.48rem;
+        &-icon {
+          border: 1px solid #adb2cc;
+          border-radius: 50%;
+          width: 0.88rem;
+          height: 0.88rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+
+      &-describe {
+        &-label {
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 14px;
+          color: #363853;
+          margin-bottom: 0.2rem;
+        }
+
+        &-value {
+          font-size: 11px;
+          line-height: 13px;
+          color: #83848c;
+          margin-bottom: 0.2rem;
+        }
+      }
+
+      &-line {
+        border-top: 1px solid #0e4653;
+        opacity: 0.1;
+        margin: 0.4rem 0;
+      }
+
+      &-tokenId {
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+
+        &-left {
+          color: #363853;
+        }
+        &-right {
+          color: #83848c;
+        }
+      }
+
+      .NftDetail-button {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        font-weight: 500;
+        font-size: 12px;
+        color: #ffffff;
+      }
+
+      .NftDetail-transfer-button {
+        width: 156px;
+        line-height: 44px;
+        text-align: center;
+        background: #6c55c6;
+        border-radius: 4px;
+      }
+
+      .NftDetail-invite-button {
+        width: 156px;
+        line-height: 44px;
+        text-align: center;
+        background: linear-gradient(270deg, #5b6ff8 -13.01%, #27b8c5 100%);
+        border-radius: 4px;
+      }
+
+      .NftDetail-singleTransfer-button {
+        width: 100%;
+        line-height: 44px;
+        text-align: center;
+        background: #6c55c6;
+        border-radius: 4px;
+      }
+    }
+  }
+}

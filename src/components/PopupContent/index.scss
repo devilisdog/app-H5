@@ -1,0 +1,104 @@
+.popupContent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .title_line {
+    height: 4px;
+    width: 1.14rem;
+    background: #000000;
+    opacity: 0.1;
+    border-radius: 2rem;
+    margin-bottom: 0.28rem;
+  }
+
+  .nftList {
+    overflow-y: scroll;
+    height: 700px;
+
+    &::-webkit-scrollbar {
+      width: 4px;
+
+      margin-left: 10px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #6c55c6;
+      border-radius: 5px;
+      border-radius: 100px;
+    }
+    &::-webkit-scrollbar-track-piece {
+      background: #cad0d8;
+    }
+  }
+
+  .content {
+    width: 6.53rem;
+    height: 7.68rem;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 194, 205, 0.5);
+    border-radius: 8px;
+    padding: 0.32rem;
+    position: relative;
+    margin-bottom: 0.32rem;
+  }
+
+  .content_not_activeated {
+    position: absolute;
+    width: 3.2rem;
+    height: 0.68rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: url('../../assets/index/activated2.png') no-repeat;
+    background-size: auto 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .content_activeated {
+    background: url('../../assets/index/activated.png') no-repeat;
+  }
+
+  .content_img {
+    width: 5.88rem;
+    height: 5.88rem;
+    border-radius: 4px;
+  }
+
+  .nft_title {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0.32rem 0 0.2rem 0;
+  }
+
+  .nft_title_name {
+    color: #363853;
+  }
+
+  .nft_title_num {
+    background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .capsule_box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .capsule_not_activeated {
+    width: 2.44rem;
+    height: 0.4rem;
+    background: linear-gradient(270deg, #414141 0%, #b8b8b8 100%);
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+  }
+
+  .capsule_activeated {
+    background: linear-gradient(270deg, #7b3cf4 0%, #00fcff 100%);
+  }
+}

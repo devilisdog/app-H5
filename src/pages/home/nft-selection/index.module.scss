@@ -1,0 +1,58 @@
+@import "../../../common/scss/common.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('../../../assets/home/home_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .content {
+    flex: 1;
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+.mslist {
+  width: 92%;
+  margin: 0 auto;
+  margin-top: 24px;
+  .item {
+    background: #F9F9FB;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .tag {
+      position: absolute;
+      right: 0;
+      top: 0;
+      overflow: hidden;
+      height: 24px;
+      width: 108px;
+      border-radius: 0 4px 0 0;
+      .tagCurrent {
+        position: absolute;
+        left: 25px;
+        height: 100%;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        font-weight: bold;
+        // justify-content: center;
+        padding-left: 20px;
+        align-items: center;
+        background: linear-gradient(270deg, #7B3CF4 0%, #00FCFF 74.7%);
+        transform: skewX(-20deg);
+      }
+    }
+  }
+}
+
+
+
